@@ -85,7 +85,7 @@ createHearts();
             currentSuggestion = (currentSuggestion + 1) % suggestions.length;
             
             // Efecto de movimiento
-            moveDistance += 10;
+            moveDistance += 3;
             rejectBtn.style.transform = `translateX(${moveDistance}px)`;
             
             // Efecto shake
